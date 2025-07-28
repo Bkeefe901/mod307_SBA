@@ -11,26 +11,45 @@
 <body>
     <nav>
         <ul style="list-style-type: none;">
-            <li class="logo"><img src="./images/food.png" alt="Master Chef's Logo"></li>
-            <li><Button>Log In/ Sign Up</Button></li>
-            <li><Button>About</Button></li>
+            <li class="logo"><a href="./index.html"><img src="./images/food.png" alt="Master Chef's Logo"></a></li>
+            <li><a href="./signIn.html"><Button>Log In/ Sign Up</Button></a></li>
+            <li><a href="./about.html"><Button>About</Button></a></li>
         </ul>
     </nav>
     <div class="userBox">
-        <h1></h1>
-        <label for=""></label><br>
-        <input type="text" name="" id="">
+        <h1>Sign Up</h1>
 
-        <label for=""></label><br>
-        <input type="email" name="" id="">
+        
+        <br>
+        <input type="text" name="" id="fullName">
+        <label for="fullName">Full Name</label>
 
-        <label for=""></label><br>
-        <input type="text" name="" id="">
+        
+        <br>
+        <input type="email" name="" id="userEmail">
+        <label for="userEmail">Email</label>
 
-        <label for=""></label><br>
-        <input type="password" name="" id="">
+        
+        <br>
+        <input type="text" name="" id="userName">
+        <label for="userName">User Name</label>
 
-        <select name="" id=""></select>
+        
+        <br>
+        <input type="password" name="" id="password">
+        <label for="password">Password</label>
+        <br>
+        <br>
+
+        <select name="whereDrop" id="whereDrop">
+            <option value="facebook">FaceBook</option>
+            <option value="instagram">Instagram</option>
+            <option value="google">Google</option>
+            <option value="aFriend">Word Of Mouth</option>
+        </select>
+        <label for="whereDrop">Where did you hear about us?</label>
+        <br>
+        <br>
 
         <input type="button" value="Submit">
 
