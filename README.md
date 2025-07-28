@@ -1,7 +1,7 @@
-## Cooking Website 'MasterChef'
+# Cooking Website 'MasterChef'
 
-# About 'MasterChef'
+## About 'MasterChef'
 
-# Technology Used
+## Technology Used
 
-# Resources Used
+## Resources Used
