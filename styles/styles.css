@@ -3,14 +3,13 @@ body, html{
     box-sizing: border-box;
     height: 100%;
     background-color: #22223B;
-    font-family: "montserrat";
 }
 
 
 .montserrat-font{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 150;
+  font-weight: 300;
   font-style: normal;
 }
 
