@@ -44,6 +44,12 @@ nav > ul{
 nav button{
     border-radius: 4px;
     margin: 0 4px;
+    transition-property: background-color;
+    transition-duration: .4s;
+}
+
+nav button:hover{
+    background-color: #dda15e;
 }
 
 #heroImage > img{
